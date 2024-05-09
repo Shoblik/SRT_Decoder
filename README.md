@@ -3,7 +3,9 @@
 ###
 
 <p align="left">My wife needed a secure SRT decoder, I came up with this quick solution. No libraries besides jQuery. No server side storage of srt files. No database connection. I have this up on simonhoblik.com, feel free to use or simply clone and point a webserver at /public.</p>
-<p>Just a quick and dirty solution, I'm happier in a decent framework but don't want to deal with updating this when package security vulnerabilities inevitably pop up</p>
+<p>Just a quick and dirty solution, I'm happier in a decent framework but don't want to deal with updating this when package security vulnerabilities inevitably pop up.</p>
+
+<p>No error handling for this one, because I want to move onto something else. If issues arise I will push some updates.</p>
 
 ###
 
