@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+.top-bar h2 {
+    margin-top: 0;
+}
+.top-bar {
+    background: linear-gradient(90deg, rgba(24, 0, 36, 0.9836309523809523) 0%, rgba(9, 9, 121, 1) 22%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    padding: 16px 25px;
+}
+div.left,
+div.right {
+    width: 49%;
+    vertical-align: top;
+    display: none;
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+div#processedFileTargetContainer {
+    position: relative;
+    width: 100%;
+}
+.controls input {
+    margin: 12px 0;
+    padding: 0;
+    width: 300px;
+}
+.controls label {
+    display: block;
+}
+.controls {
+    margin-top: 30px;
+}
+.standard-btn:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+.standard-btn {
+    background-color: #ffffff00;
+    border: 2px solid orange;
+    font-weight: bold;
+    border-radius: 8px;
+    color: orange;
+    padding: 8px 16px;
+    transition: .5s;
+}
+input[type="file"] {
+    display: none;
+}
+p.file-name {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0;
+    background: black;
+    color: white;
+    padding: 16px 25px;
+    box-shadow: 0 8px 16px 8px grey;
+}
+.copy-feedback {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 8px;
+    color: orange;
+    margin: 0;
+}
+.content-target {
+    line-height: 1.8;
+}
